@@ -1,10 +1,11 @@
 body{
     background-color: rgb(0, 0, 0);
     opacity: var(10%);
+    color: white;
 }
 
 section{
-    padding-top : 2rem;
+    padding-top : 3rem;
 }
 
 .fullscreen-bg{
@@ -27,8 +28,10 @@ section{
     }
   }
 
-#skill{
-    color: #ffffff;
+img:hover{
+
+  transform:scale(1.1);
+  transition:all 0.90s ease 0s;
 }
 
 .back-to-top {
