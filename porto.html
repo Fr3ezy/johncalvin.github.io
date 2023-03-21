@@ -4,15 +4,29 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- font -->
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');
+    </style>
+
+    <!-- boostrap -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+
+    <!-- css -->
     <link rel="stylesheet" href="css/porto.css">
+    
+    <!-- AOS -->
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    
     <!-- link icon -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+
     <!-- icon -->
-    <title>John Calvin Portofolio's</title>
     <link rel="icon" href="img/b2c8b647f285dbc9d29a87c833142419.jpg">
+
+    <title>John Calvin Portofolio's</title>
 </head>
 
 <body>
@@ -68,7 +82,7 @@
     </section>
 
     <!-- about me -->
-    <section id="aboutme">
+    <section id="aboutme" data-aos="zoom-in-up">
         <ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
             <li class="nav-item" role="presentation">
                 <button class="nav-link active" id="pills-home-tab" data-bs-toggle="pill" data-bs-target="#pills-home"
@@ -97,13 +111,16 @@
             </div>
             <div class="tab-pane fade text-center" id="pills-cv" role="tabpanel" aria-labelledby="pills-cv-tab">
                 <span>You can download My CV
-                    <a href="https://binusianorg-my.sharepoint.com/personal/john_widianto_binus_ac_id/_layouts/15/guestaccess.aspx?docid=0a04c13035dbd48b8aa193b41e6ee5e3b&authkey=ATpgb_wSKVAWcNfnfN0iJMg&e=GRPJRt">here<br><i class="bi bi-file-earmark-pdf"></i></a></span>
+                    <a href="https://binusianorg-my.sharepoint.com/personal/john_widianto_binus_ac_id/_layouts/15/guestaccess.aspx?docid=0a04c13035dbd48b8aa193b41e6ee5e3b&authkey=ATpgb_wSKVAWcNfnfN0iJMg&e=GRPJRt">here<br><img width="20%" src="img/pdf.png"></a></span>
             </div>
             <div class="tab-pane fade text-center" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab">
                 <span>Hello everyone i'm John Calvin Widianto, who like design and computer.
                     <br>Pekalongan is city where i born and grow, i live at Pekalongan until senior sigh school before i
                     studied at Bina Nusantara University.
-                    <br>I like to play computer and like to solve the problem what i found.</span>
+                    <br>I like to play computer and like to solve the problem what i found.
+                    <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+                    <lottie-player class="mx-auto" src="https://assets4.lottiefiles.com/packages/lf20_KEahK5k9Mf.json"  background="transparent"  speed="1"  style="width: 300px; height: 300px;"  loop  autoplay></lottie-player>
+                </span>
             </div>
             <div class="tab-pane fade" id="pills-contact" role="tabpanel" aria-labelledby="pills-contact-tab">
                 <div class="container mb-5 mt-5 justify-content-center">
@@ -136,18 +153,18 @@
     <section id="skill">
         <div class="container mb-5 mt-5 justify-content-center">
             <div class="row text-center">
-                <div class="col-mb-4">
+                <div class="col-mb-4" data-aos="zoom-in" data-aos-duration="1000">
                     <h2 style="color: bisque">Some Skill's</h2>
                 </div>
-                <div class="col-md-4 align-self-start">
+                <div class="col-md-4 align-self-start" data-aos="zoom-in" data-aos-duration="1500">
                     <img width="40%" src="img/photoshop.png" alt="logo psd">
                     <h3>Photoshop</h3>
                 </div>
-                <div class="col-md-4 align-self-center">
+                <div class="col-md-4 align-self-center" data-aos="zoom-in" data-aos-duration="1500">
                     <img width="40%" src="img/teamwork.png" alt="teamwork">
                     <h3>Easy Team Work</h3>
                 </div>
-                <div class="col-md-4 align-self-end">
+                <div class="col-md-4 align-self-end" data-aos="zoom-in" data-aos-duration="1500">
                     <img width="80%" src="img/editing.png" alt="editing">
                     <h3>Like Editing & Design</h3>
                 </div>
@@ -159,17 +176,17 @@
     <section id="project">
         <div class="d-flex container mb-5 mt-5">
             <div class="row text-center justify-content-evenly">
-                <div class="row mb-4">
+                <div class="row mb-4" data-aos="fade-up">
                     <h2 style="color: bisque">This is some project i've made when in college</h2>
                 </div>
-                <div class="col-md-4">
+                <div class="col-md-4" data-aos="fade-right">
                     <a
                         href="https://www.figma.com/proto/9gyxHzAnVNlMI3xUThNmmy/redesign-pegipegi.com-kelompok-12?page-id=0%3A1&node-id=2%3A4&viewport=366%2C484%2C0.04&scaling=min-zoom&starting-point-node-id=2%3A4"><img
                             width="40%" src="img/files.png" alt="file1">
                     </a>
                     <h3>Redesign web Pegipegi.com</h3>
                 </div>
-                <div class="col-md-4">
+                <div class="col-md-4" data-aos="fade-left">
                     <a href="https://maboling.shennx.net/index.html"><img width="40%" src="img/files.png" alt="files2">
                     </a>
                     <h3>Make web Maboling
@@ -188,14 +205,22 @@
     </footer>
     <!-- footer -->
 
+    <!-- back to top -->
     <div id="preloader"></div>
     <button class="back-to-top d-flex align-items-center justify-content-center">
         <a href="#" class="back-to-top d-flex align-items-center justify-content-center">
             <i text-danger class="bi bi-caret-up-square-fill"></i>
         </a>
     </button>
-    <!-- script -->
-    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+
+    <!-- AOS -->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init();
+        </script>
+
+    <!-- script bootstrap -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
         crossorigin="anonymous"></script>
