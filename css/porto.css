@@ -94,7 +94,7 @@ img:hover{
     }
   }
 
-  @media (min-width: 1024px) {
+  @media (max-width: 1024px) {
       .fullscreen-bg {
         height: auto;
         background-repeat: repeat;
@@ -108,7 +108,7 @@ img:hover{
         position: fixed;
         visibility: visible;
         opacity: 100;
-        right: 5px;
+        right: 20px;
         bottom: 15px;
         z-index: 996;
         width: 44px;
