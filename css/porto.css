@@ -94,7 +94,11 @@ img:hover{
     }
   }
 
-  @media (max-width: 1024px) {
+  @media only screen and (min-width: 1024px) {
+      body{
+        overflow-x: hidden;
+      }
+
       .fullscreen-bg {
         height: auto;
         background-repeat: repeat;
