@@ -34,6 +34,8 @@ img:hover{
   transition:all 0.90s ease 0s;
 }
 
+/* back to top button */
+
 .back-to-top {
   color: white;
   background-color: #000000;
@@ -56,6 +58,8 @@ img:hover{
     opacity: 1;
   }
   
+/* rgb card */
+
   .card-rgb {
     width: 190px;
     height: 254px;
@@ -94,6 +98,7 @@ img:hover{
     }
   }
 
+
   @media only screen and (min-width: 1024px) {
       body{
         overflow-x: hidden;
@@ -129,6 +134,8 @@ img:hover{
       }
   }
  
+/* preload */
+
 .preload-content { 
     position: absolute; 
     top: 50%; 
@@ -161,4 +168,29 @@ img:hover{
   to {
     transform: rotate(360deg);
   }
+}
+
+/* gallery */
+
+.gallery {
+  display: flex;
+  height: 20rem;
+  gap: 1rem;
+  background-color: bisque;
+  padding: 50px;
+  border-radius: 50px;
+}
+
+.gallery > div {
+  flex: 1;
+  border-radius: 10px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: auto 100%;
+}
+
+.gallery > div:hover {
+  flex: 2;
+  transform:scale(1.1);
+  transition: all .8s cubic-bezier(0.25, 0.46, 0.45, 0.94);
 }
