@@ -38,7 +38,7 @@
 
     <video loop autoplay muted class="fullscreen-bg" src="vid/vid-bg.mp4"></video>
     <!-- navbar -->
-    <nav class="navbar navbar-expand-lg fixed-top navbar-scrolled" style="background-color: white;">
+    <nav class="navbar navbar-expand-lg fixed-top navbar-scrolled navbar-dark">
         <div class="container-fluid">
             <a class="navbar-brand" href="#">John Calvin Portofolio |</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
@@ -46,7 +46,7 @@
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarNavDropdown">
-                <ul class="navbar-nav justify-content-end">
+                <ul class="navbar-nav text-center">
                     <li class="nav-item">
                         <a class="nav-link hover" aria-current="page" href="#">Home</a>
                     </li>
@@ -267,14 +267,14 @@
                         This is some project i've made when in college
                     </h2>
                 </div>
-                <div class="col-md-6 align-self-start" data-aos="zoom-in-right" data-aos-duration="1500">
+                <div class="col-md-6 align-self-start" style="overflow-x: hidden;" data-aos="zoom-in-right" data-aos-duration="1500">
                     <a
                         href="https://www.figma.com/proto/9gyxHzAnVNlMI3xUThNmmy/redesign-pegipegi.com-kelompok-12?page-id=0%3A1&node-id=2%3A4&viewport=366%2C484%2C0.04&scaling=min-zoom&starting-point-node-id=2%3A4"><img
                             width="40%" src="img/files.png" alt="file1" />
                     </a>
                     <h3>Redesign web Pegipegi.com</h3>
                 </div>
-                <div class="col-md-6 align-self-center" data-aos="zoom-in-left" data-aos-duration="1500">
+                <div class="col-md-6 align-self-center" style="overflow-x: hidden;" data-aos="zoom-in-left" data-aos-duration="1500">
                     <a href="https://maboling.shennx.net/index.html"><img width="40%" src="img/files.png"
                             alt="files2" />
                     </a>
@@ -309,6 +309,25 @@
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
     <script>
         AOS.init();
+    </script>
+
+    <!-- navbar scrolled -->
+    <script>
+        window.addEventListener("scroll", function() {
+            if (window.scrollY > 10) {
+                document.querySelector(".navbar").classList.add("navbar-scrolled");
+            } else {
+                document.querySelector(".navbar").classList.remove("navbar-scrolled");
+            }
+        });
+
+        </script>
+        <script>
+            // Ganti Background mobile navbar
+        $(".navbar-toggler").click(function() {
+            $(".navbar").addClass("navbar-scrolled");
+            $(".nav-item").addClass("text-center");
+        })
     </script>
 
     <!-- script bootstrap -->
