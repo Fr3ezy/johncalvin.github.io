@@ -4,12 +4,12 @@ document.onreadystatechange = function() {
         document.querySelector( 
         "body").style.visibility = "hidden"; 
         document.querySelector(
-        "body").style.overflow = "hidden";
+        "body").style.overflowX = "hidden";
         document.querySelector( 
         "#pre-loader").style.visibility = "visible"; 
     } else { 
         document.querySelector(
-        "body").style.overflow = "auto";
+        "body").style.overflowX = "hidden";
         document.querySelector( 
         "body").style.visibility = "visible"; 
         document.querySelector( 
